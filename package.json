@@ -1,0 +1,62 @@
+{
+  "_from": "vue2js-editor@^11.0.0",
+  "_id": "vue2js-editor@11.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-+oRh9LNuDOPFbgQYFveGTq30Obvpkx5ydEt/N3wXZkprvhhTpD4mFo6WXafJiidQYmt1MvANGa/wnx/j/jmEiw==",
+  "_location": "/vue2js-editor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vue2js-editor@^11.0.0",
+    "name": "vue2js-editor",
+    "escapedName": "vue2js-editor",
+    "rawSpec": "^11.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^11.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue2js-editor/-/vue2js-editor-11.0.0.tgz",
+  "_shasum": "3bb800faf7b0248bc9cc09af3379f29d2944a4bf",
+  "_spec": "vue2js-editor@^11.0.0",
+  "_where": "C:\\Users\\Administrator\\Documents\\长隆\\front-backoffice-vue",
+  "author": {
+    "name": "kailang",
+    "email": "kailanghuang@pku.edu.cn"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "vue": "^2.5.11"
+  },
+  "deprecated": false,
+  "description": "simple right text editor",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "express-mockjs": "^0.4.9",
+    "file-loader": "^1.1.4",
+    "object-assign": "^4.1.1",
+    "shelljs": "^0.8.2",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "license": "ISC",
+  "main": "dist/vue-js-editor.js",
+  "name": "vue2js-editor",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 1122 "
+  },
+  "version": "14.0.0"
+}
